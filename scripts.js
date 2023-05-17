@@ -14,8 +14,6 @@ function encriptarPalabra(){
         var palabra = document.getElementById("texto-escribir").value;
         var palabraEncriptada = '';
         for(let i = 0; i < palabra.length; i++){
-            // var aux = palabra[i];
-            // alert(aux);    
             switch(palabra[i]){
                 case 'e':
                     palabraEncriptada += 'enter';
@@ -84,9 +82,5 @@ function desencriptarPalabra() {
 }
 
 function copiarTexto() {
-    navigator.clipboard.writeText(document.getElementById("mostrar-encriptado").innerHTML).then(() => {
-      /* clipboard successfully set */
-    }, () => {
-      /* clipboard write failed */
-    });
+    navigator.clipboard.writeText(document.getElementById("mostrar-encriptado").innerHTML).then(() => { }, () => { });
   }
