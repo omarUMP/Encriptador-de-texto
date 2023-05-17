@@ -27,12 +27,8 @@ p{
     font-family: inherit;
     font-style: normal;
     font-size: 16px;
-
-    /* or 24px */
-
+    
     text-align: center;
-
-    /* Gray/gray-400 */
 
     color: #495057;
 }
@@ -78,7 +74,6 @@ h2{
 .imagen-nota{
     padding: 3em 0 0 19%;
     width: 1%;
-    /* vertical-align: baseline; */
 }
 
 .nota{
@@ -109,12 +104,6 @@ h2{
     color: #FFFFFF;
 }
 
-/* .encriptar:hover{
-    width: 330px;
-    height: 70px;
-    font-size: 20px;
-} */
-
 .desencriptar{
     width: 328px;
     height: 67px;
@@ -130,10 +119,7 @@ h2{
 
 }
 
-.texto-encriptado{
-    /* padding: 0 0 20px 0;
-    margin: -100px 0 0 71%; */
-    
+.texto-encriptado{    
     position: absolute;
     top: 30px;
     left: 955px;
@@ -159,4 +145,11 @@ h2{
     text-align: center;
 
     color: #0A3871;
+}
+
+.autor{
+    margin: 3% 0 0 1%;
+    font-family: inherit;
+    font-size: 16px;
+    color: #495057;
 }
