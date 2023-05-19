@@ -224,5 +224,63 @@ h2{
 
 /* responsive Celular */
 @media (min-width: 320px) and (max-width: 480px){
+    .logo{
+        width: 30%;
+        padding: 2em 0 0 0;
+        margin: 0 0 0 -1.5em;
+    }
+    
+    #texto-escribir{
+        padding: 0 .5em 9.3em;
+        margin: 2em 0 0 0;
+        width: 10.71em;
+    }
+
+    .imagen-nota{
+        padding: 0 .1em 0 .5em;
+        margin: 0 0 0 .5em;
+        width: 1em;
+    }
+
+    .botones{
+        display: block;
+        padding: 0.5em 0 1.5em 1em;
+    }
+
+    #desencriptado{
+        position: absolute;    
+        bottom: 5em;
+    }
+
+    .imagen-muñeco{
+        display: none;
+    }
+
+    .texto-encriptado{    
+        position: relative;
+        top: 0;
+        left: 1em;
+        width: 21.5em;
+        height: 14.5em;
+    }
+
+    .imagen-textos{
+        padding: 0;
+    }
+
+    h1{
+        padding: 4em 0 1em;
+    }
+
+    h2{
+        margin: 0 1em;
+        padding: .5em 0;
+    }
+    .copiar{
+        padding: 0;
+        margin: 0 -.5em;
+        position: absolute;
+        bottom: 1em;
+    }
 
 }
