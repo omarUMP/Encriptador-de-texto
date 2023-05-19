@@ -1,62 +1,25 @@
 body{
     background-color: #E5E5E5;
     font-family: 'Inter', sans-serif;
-    
+    font-weight: 400;
+    font-style: normal;
 }
 
 .logo{
     padding: 3em 0 0 0;
 }
 
-.imagen-muñeco{
-    width: 80%;
-    margin: 30% 10% 5% 10%;
-    
-}
-
-h1{
-    font-family: inherit;
-    font-style: normal;
-    font-size: 24px;
-    text-align: center;
-
-    color: #343A40;
-}
-
-p{
-    font-family: inherit;
-    font-style: normal;
-    font-size: 16px;
-    
-    text-align: center;
-
-    color: #495057;
-}
-
-h2{
-    padding: 0 0 auto 0;
-    margin: 10% 10%;
-    word-wrap: break-word;
-    font-family: inherit;
-    font-style: normal;
-    font-size: 24px;
-    color: #495057;
-}
-
-#mostrar-texto-encriptado{
-    display: none;
-}
 
 #texto-escribir{
     padding: 0 0 22% 20%;
     margin: 1em 0 0 0;
-
+    
     width: 45%;
     background-color: #E5E5E5;
     border: none;
 
     font-family: inherit;
-    font-size: 32px;
+    font-size: 2em;
     color: #0A3871;
 }
 
@@ -78,7 +41,7 @@ h2{
 
 .nota{
     font-family: inherit;
-    font-size: 12px;
+    font-size: .75em;
 
     color: #495057;
     opacity: 0.8;
@@ -93,12 +56,12 @@ h2{
     margin: 0 1%;
     width: 328px;
     height: 67px;
-
+    
     background: #0A3871;
     border-radius: 24px;
 
     font-family: inherit;
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
 
     color: #FFFFFF;
@@ -112,17 +75,17 @@ h2{
     border-radius: 24px;
 
     font-family: inherit;
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
-
+    
     color: #0A3871;
 
 }
 
 .texto-encriptado{    
     position: absolute;
-    top: 30px;
-    left: 955px;
+    top: 1.875em;
+    left: 59.688em;
 
     width: 27%;
     height: 640px;
@@ -130,26 +93,136 @@ h2{
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+    overflow-y: auto;
 }
 
 .copiar{
-    margin: 140% -15% 0;
+    margin: 0 -11% 0;
     width: 328px;
     height: 67px;
-
+    position: absolute;
+    bottom: 2.5em;
+    
     background: #FFFFFF;
     border-radius: 24px;
 
     font-family: inherit;
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
 
     color: #0A3871;
 }
 
+
+.imagen-muñeco{
+    width: 80%;
+    margin: 30% 10% 5% 10%;
+    
+}
+
+h1{
+    font-family: inherit;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+
+    color: #343A40;
+}
+
+p{
+    font-family: inherit;
+    font-style: normal;
+    font-size: 1em;
+    
+    text-align: center;
+
+    color: #495057;
+}
+
+h2{
+    padding: 0 0 auto 0;
+    margin: 10% 10%;
+    word-wrap: break-word;
+    font-family: inherit;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #495057;
+}
+
+#mostrar-texto-encriptado{
+    display: none;
+}
+
+
 .autor{
     margin: 3% 0 0 1%;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 1em;
     color: #495057;
+}
+
+/* responsive Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo{
+        width: 15%;
+        padding: 4em 0 0 0;
+    }
+    
+    #texto-escribir{
+        padding: 0 2.2em 15em 1.8em;
+        margin: 4em 0 0 0;
+        width: 20em;
+    }
+
+    .imagen-nota{
+        padding: 0 .1em 0 1em;
+        margin: 0 0 0 1.8em;
+        width: 1em;
+    }
+
+    .botones{
+        padding: .5em 0 2em 2.5em;     
+    }
+
+    .imagen-muñeco{
+        display: none;
+        
+    }
+
+    .texto-encriptado{    
+        position: relative;
+        top: 0;
+        left: 2.5em;
+    
+        width: 42em;
+        height: 15em;
+        
+        
+    }
+
+    .imagen-textos{
+        padding: 0;
+    }
+
+    h1{
+        padding: 4em 0 1em;
+    }
+
+    h2{
+        margin: 0 1em;
+        padding: .5em 0;
+    }
+    .copiar{
+        margin: 0;
+        width: 590px;
+        position: absolute;
+        bottom: 1em;
+    }
+
+}
+
+/* responsive Celular */
+@media (min-width: 320px) and (max-width: 480px){
+
 }

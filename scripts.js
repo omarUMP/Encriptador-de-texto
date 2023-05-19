@@ -1,7 +1,7 @@
 function valido(){
     var palabra = document.getElementById("texto-escribir").value;
     /////////////verificar que no este vacio, y que no sea un caracter con acento o mayuscula
-    if(palabra == '' || !(/^[a-z ]*$/.test(palabra))){   
+    if(palabra == '' || !(/^[a-z@., ]*$/.test(palabra))){   
         return false;
     }
     else{

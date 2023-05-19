@@ -19,22 +19,6 @@
     </header>
     
     
-    <div class="texto-encriptado">
-        <div id="imagen-textos">
-            <!-- Área para mostrar el texto encriptado/desencriptado. -->        
-            <img src="imagenes/Muñeco.png" alt="Muñeco buscando con una lupa" class="imagen-muñeco">
-            <h1>Ningún mensaje fue encontrado</h1>
-            <p>Ingresa el texto que desees encriptar o desencriptar</p>
-        </div>
-        <div id="mostrar-texto-encriptado">
-            <h2 id="mostrar-encriptado"></h2>
-            <div class="botones">
-                <!-- boton para copiar -->
-                <input type="submit" value="Copiar" class="copiar" onclick="copiarTexto()">
-            </div>
-        </div>
-
-    </div>
     
     <div>
         <!-- Campo para el texto que va a ser encriptado/desencriptado -->
@@ -53,7 +37,23 @@
         <input type="submit" value="Desencriptar" class="desencriptar" onclick="desencriptarPalabra()">
     </div>
     
+    <div class="texto-encriptado">
+        <div id="imagen-textos">
+            <!-- Área para mostrar el texto encriptado/desencriptado. -->        
+            <img src="imagenes/Muñeco.png" alt="Muñeco buscando con una lupa" class="imagen-muñeco">
+            <h1>Ningún mensaje fue encontrado</h1>
+            <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <div id="mostrar-texto-encriptado">
+            <h2 id="mostrar-encriptado"></h2>
+            <div class="botones">
+                <!-- boton para copiar -->
+                <input type="submit" value="Copiar" class="copiar" onclick="copiarTexto()">
+            </div>
+        </div>
 
+    </div>
+    
     <footer>
         <!-- Un rodapie con los datos de la persona que desarrolló el sitio web! -->
         <legend class="autor">Omar Ulises Maravilla Portillo.</legend>
